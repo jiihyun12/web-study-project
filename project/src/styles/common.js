@@ -12,6 +12,7 @@ export const flexCenterColumn = css`
   justify-content: center;
   align-items: center;
 `
+
 export const h1Bold = css`
   font-size: ${({theme}) => theme.FONT_SIZE["h1"]};
   line-height: ${({theme}) => theme.FONT_LINE["h1"]};
